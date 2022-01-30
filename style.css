@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.centerAlign{
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/* --------------- CALCULATOR BODY ------------- */
+
+#calBody {
+    width: 45vw;
+    /* height: 70vh; */
+    margin-top: 15vh;
+    border-radius: 5px;
+    background-color: #C6C8C7;
+    padding: 30px 10px 10px 10px;
+}
+
+/* --------------- CALCULATOR TAG ------------- */
+
+#calTag {
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+}
+
+#calTag h1{
+    color: white;
+}
+
+/* --------------- CALCULATION BAR ---------------- */
+
+#calculationBar {
+    margin-top: 20px;
+    height: 13vh;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+/* ---------------- KEYS BLOCK ----------------- */
+
+#keysBlock{
+    margin-top: 10px;
+    height: 40vh;
+    background-color: #E2E0E0;
+}
+
+/* -------------------- ROW 1 --------------------- */
+
+.rows {
+    background-color: white;
+    height: 8vh;
+    /* margin: 1px; */
+    display: flex;
+}
+
+.btns{
+    height: 100%;
+    border: 0px;
+    width: 100%;
+}
+
+.btns button {
+    border: 1px solid rgb(161, 165, 167);
+    font-size: larger;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.btns button:hover{
+    background-color: #31CABA;
+}
+
+.specialKey{
+    background-color: #3C8EA1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
